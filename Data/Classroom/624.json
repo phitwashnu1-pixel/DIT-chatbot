@@ -1,0 +1,136 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 6",
+  "room": "624 (คอม8)",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [1, 2],
+        "time": "08:00-10:00",
+        "subject_code": "31910-2016",
+        "group": "ธดท.1/1",
+        "teacher": "ธีราวุธ"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "30001-1003",
+        "group": "กท.1/1 ทวิภาคี",
+        "teacher": "ธีราวุธ"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "21901-2011",
+        "group": "IT 2/1",
+        "teacher": "อากรณ์"
+      },
+      {
+        "periods": [8, 9],
+        "time": "15:20-17:20",
+        "subject_code": "21910-2017",
+        "group": "ธดท. กลุ่ม 3",
+        "teacher": "อากรณ์"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [1, 2],
+        "time": "08:00-10:00",
+        "subject_code": "21910-2017",
+        "group": "ธดท. กลุ่ม 1",
+        "teacher": "อากรณ์"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "21910-2003",
+        "group": "ธดท.1/1",
+        "teacher": "อากรณ์"
+      },
+      {
+        "periods": [5, 6],
+        "time": "12:00-14:00",
+        "subject_code": "21910-2017",
+        "group": "ธดท. กลุ่ม 2",
+        "teacher": "อากรณ์"
+      },
+      {
+        "periods": [7, 8],
+        "time": "14:00-17:20",
+        "subject_code": "21900-1005",
+        "group": "IT 1/1",
+        "teacher": "ธีราวุธ"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [1, 2],
+        "time": "08:00-10:00",
+        "subject_code": "31905-2007",
+        "group": "ธดท.1/2 ทวิภาคี",
+        "teacher": "ธีราวุธ"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "21910-2017",
+        "group": "ธดท. กลุ่ม 2",
+        "teacher": "อากรณ์"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "30001-1003",
+        "group": "กท.1/1 ทวิภาคี",
+        "teacher": "ธีราวุธ"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [1, 2],
+        "time": "08:00-10:00",
+        "subject_code": "31905-2007",
+        "group": "ธดท.1/2 ทวิภาคี",
+        "teacher": "ธีราวุธ"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "31910-2016",
+        "group": "ธคท.1/1",
+        "teacher": "ธีรานุธ"
+      },
+      {
+        "periods": [5, 6],
+        "time": "12:00-14:00",
+        "subject_code": "21910-2017",
+        "group": "ธดท. กลุ่ม 1",
+        "teacher": "อากรณ์"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [1, 2],
+        "time": "08:00-10:00",
+        "subject_code": "21901-2011",
+        "group": "IT 2/1",
+        "teacher": "อากรณ์"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "30001-1003",
+        "group": "กร.1/2 (ม.6) ทวิภาคี",
+        "teacher": "ธีราวุธ"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "31905-2007",
+        "group": "ธดท.",
+        "teacher": "ธีราวุธ"
+      }
+    ]
+  }
+}

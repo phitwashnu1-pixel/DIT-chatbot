@@ -1,0 +1,144 @@
+{
+  "semester": "1/2569",
+  "teacher": "นายสัมฤทธิ์ ทองพัฒน์",
+  "department": "ธุรกิจดิจิทัลและเทคโนโลยีสารสนเทศ",
+  "subjects": [
+    {
+      "subject_code": "31910-2002",
+      "subject_name": "ระบบจัดการฐานข้อมูล",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "31910-2011",
+      "subject_name": "การพัฒนาเว็บไซต์ทางธุรกิจ",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 8
+      }
+    },
+    {
+      "subject_code": "31910-2012",
+      "subject_name": "อินเทอร์เน็ตเพื่อสรรพสิ่ง",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 8
+      }
+    },
+    {
+      "subject_code": "20000-2005",
+      "subject_name": "กิจกรรมองค์การวิชาชีพ 2",
+      "hours": {
+        "theory": 0,
+        "practice": 2,
+        "credit": 0,
+        "total": 2
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "day": "วันจันทร์",
+      "classes": [
+        {
+          "period": 2,
+          "time": "08:00-10:00",
+          "subject_code": "31910-2002",
+          "room": "443 (คอม2)",
+          "group": "693191002 ธดท.1/2"
+        },
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "31910-2012",
+          "room": "441 (คอม1)",
+          "group": "683191001 ธดท.กลุ่ม 1"
+        },
+        {
+          "period": 8,
+          "time": "15:20-17:20",
+          "subject_code": "31910-2011",
+          "room": "441 (คอม1)",
+          "group": "693191002 ธดท.1/2"
+        }
+      ]
+    },
+    {
+      "day": "วันอังคาร",
+      "classes": [
+        {
+          "period": 3,
+          "time": "10:00-12:00",
+          "subject_code": "31910-2011",
+          "room": "พิมพ์ดีดไทย 2",
+          "group": "693191002 ธดท.1/2"
+        },
+        {
+          "period": 7,
+          "time": "13:00-17:20",
+          "subject_code": "31910-2011",
+          "room": "641 (คอม10)",
+          "group": "693191001 ธดท.1/1"
+        }
+      ]
+    },
+    {
+      "day": "วันพุธ",
+      "classes": [
+        {
+          "period": 2,
+          "time": "08:00-10:00",
+          "subject_code": "31910-2012",
+          "room": "441 (คอม1)",
+          "group": "683191001 ธดท.กลุ่ม 1"
+        },
+        {
+          "period": 3,
+          "time": "10:00-12:00",
+          "subject_code": "31910-2002",
+          "room": "441 (คอม1)",
+          "group": "693191002 ธดท.1/2"
+        }
+      ]
+    },
+    {
+      "day": "วันพฤหัสบดี",
+      "classes": [
+        {
+          "period": 7,
+          "time": "13:00-17:20",
+          "subject_code": "31910-2012",
+          "room": "นิเทศฝึกอาชีพ",
+          "group": "683191003 ธดท.กลุ่ม 2, 683191004 ธดท."
+        }
+      ]
+    },
+    {
+      "day": "วันศุกร์",
+      "classes": [
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "20000-2005",
+          "room": "ลานอเนกประสงค์ 1",
+          "group": "672191001 ธดท. กลุ่ม 1"
+        }
+      ]
+    }
+  ],
+  "special_duty": "หัวหน้างานวัดผลและประเมินผล",
+  "summary": {
+    "total_theory_hours": 6,
+    "total_practice_hours": 8,
+    "total_credits": 9,
+    "total_hours": 22
+  }
+}

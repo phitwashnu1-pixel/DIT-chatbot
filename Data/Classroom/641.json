@@ -1,0 +1,122 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 6",
+  "room": "641 (คอม10)",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "21910-2021",
+        "group": "ธดท.2/2, 682191001...",
+        "teacher": "อากรณ์,เขมมิกา"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "20001-1005",
+        "group": "คอ.2/2",
+        "teacher": "ภคพร"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "30001-1003",
+        "group": "ธคก.1/1",
+        "teacher": "ธีราวุธ"
+      },
+      {
+        "periods": [8, 9],
+        "time": "15:20-17:20",
+        "subject_code": "21910-2002",
+        "group": "IT 1/1, 692191001",
+        "teacher": "เมธาสิทธิ์,กนกรรวณ"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [1],
+        "time": "08:00-10:00",
+        "subject_code": "30001-1003",
+        "group": "ธคก.1/1",
+        "teacher": "ธีราวุธ"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "30001-1003",
+        "group": "กร.1/2 (ม.6)",
+        "teacher": "ธีราวุธ"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "31910-2011",
+        "group": "ธดท.1/1",
+        "teacher": "สัมฤทธิ์"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "21910-2003",
+        "group": "ธดท.1/1",
+        "teacher": "อากรณ์"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "20001-1005",
+        "group": "คอ.2/2",
+        "teacher": "ภคพร"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "20001-1005",
+        "group": "คอ.2/3",
+        "teacher": "วินิต"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "21910-2021",
+        "group": "ธดท.2/2, 682191001",
+        "teacher": "อากรณ์,เขมมิกา"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "21910-2002",
+        "group": "IT 1/1, 692191001 IT...",
+        "teacher": "เมธาสิทธิ์,กนกรรวณ"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-16:20",
+        "subject_code": "21910-1004",
+        "group": "ธดท. กลุ่ม 3",
+        "teacher": "เมธาสิทธิ์"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "21910-2015",
+        "group": "ธดท. กลุ่ม 1",
+        "teacher": "สุพัตรา"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "21910-2018",
+        "group": "ธดท. กลุ่ม 3",
+        "teacher": "ภคพร,บรรณวัชร"
+      }
+    ]
+  }
+}

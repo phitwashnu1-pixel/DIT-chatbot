@@ -1,0 +1,150 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 3 พื้นฐาน",
+  "room": "336",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [1],
+        "time": "08:00-10:00",
+        "subject_code": "30000-1101",
+        "group": "คอ.1/1",
+        "teacher": "ธีภพ"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-11:00",
+        "subject_code": "30000-1101",
+        "group": "ธดท.",
+        "teacher": "ธีภพ"
+      },
+      {
+        "periods": [4],
+        "time": "11:00-12:00",
+        "subject_code": "30000-1101",
+        "group": "ธคก.",
+        "teacher": "ธีภพ"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "30000-1101",
+        "group": "บช.1/2",
+        "teacher": "ธีภพ"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "30000-1101",
+        "group": "กร.1/1",
+        "teacher": "ธีภพ"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [1],
+        "time": "08:00-10:00",
+        "subject_code": "30000-1101",
+        "group": "กร.1/2 (ม.6)",
+        "teacher": "ธีภพ"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "30000-1101",
+        "group": "ธคก.1/1",
+        "teacher": "ธีภพ"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-16:20",
+        "subject_code": "30000-1101",
+        "group": "บช.1",
+        "teacher": "ธีภพ"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [3],
+        "time": "10:00-11:00",
+        "subject_code": "20001-1001",
+        "group": "กร.2",
+        "teacher": "มิ่งกมล"
+      },
+      {
+        "periods": [4],
+        "time": "11:00-12:00",
+        "subject_code": "30000-1101",
+        "group": "กร.1",
+        "teacher": "ธีภพ"
+      },
+      {
+        "periods": [7],
+        "time": "14:00-15:00",
+        "subject_code": "30000-1101",
+        "group": "ธดท.",
+        "teacher": "ธีภพ"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-16:20",
+        "subject_code": "30000-1101",
+        "group": "บช.1",
+        "teacher": "ธีภพ"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [1],
+        "time": "08:00-10:00",
+        "subject_code": "30000-1101",
+        "group": "บช.1/1",
+        "teacher": "ธีภพ"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-12:00",
+        "subject_code": "30000-1101",
+        "group": "ธดท.",
+        "teacher": "ธีภพ"
+      },
+      {
+        "periods": [7],
+        "time": "14:00-15:00",
+        "subject_code": "30000-1101",
+        "group": "คอ.1",
+        "teacher": "ธีภพ"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-16:20",
+        "subject_code": "30000-1101",
+        "group": "กร.1",
+        "teacher": "ธีภพ"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [1],
+        "time": "08:00-10:00",
+        "subject_code": "30000-1101",
+        "group": "คอ.1/1",
+        "teacher": "ธีภพ"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-14:00",
+        "subject_code": "30000-1101",
+        "group": "คอ.1",
+        "teacher": "ธีภพ"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-16:20",
+        "subject_code": "30000-1101",
+        "group": "ธดท.1/1",
+        "teacher": "ธีภพ"
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 3 พื้นฐาน",
+  "room": "344",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1215",
+        "group": "ธดก.2/1",
+        "teacher": "ศิริราช"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [3],
+        "time": "09:00-11:00",
+        "subject_code": "20000-1205",
+        "group": "อบ.1",
+        "teacher": "ศิรราช"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "20000-1201",
+        "group": "ดจฟ.1/2",
+        "teacher": "ศิรราช"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1201",
+        "group": "ลข.1/1",
+        "teacher": "ศิริราช"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1201",
+        "group": "ธดท.1/1",
+        "teacher": "ศิริราช"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1216",
+        "group": "อบ.2/1, วว.",
+        "teacher": "ศิริราช"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1201",
+        "group": "กท.1/1",
+        "teacher": "Eugne"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1201",
+        "group": "คอ.1/2",
+        "teacher": "Eugne"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1201",
+        "group": "IT 1/1",
+        "teacher": "ศิริราช"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "20000-1201",
+        "group": "กร.1/2",
+        "teacher": "Eugne"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [3],
+        "time": "10:00-11:00",
+        "subject_code": "20000-1201",
+        "group": "ดจฟ.1/1",
+        "teacher": "ศิริราช"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1201",
+        "group": "เม.1/1",
+        "teacher": "ศิริราช"
+      }
+    ]
+  }
+}

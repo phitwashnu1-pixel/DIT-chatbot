@@ -1,0 +1,105 @@
+{
+  "semester": "1/2569",
+  "teacher": "นายบรรณวัชร บำรุง",
+  "department": "ธุรกิจดิจิทัลและเทคโนโลยีสารสนเทศ",
+  "subjects": [
+    {
+      "subject_code": "21901-2016",
+      "subject_name": "โปรแกรมจำลองการทำงานด้วยคอมพิวเตอร์",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 3,
+        "total": 3
+      }
+    },
+    {
+      "subject_code": "21910-2015",
+      "subject_name": "โปรแกรมมัลติมีเดีย",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "21910-2018",
+      "subject_name": "คอมพิวเตอร์และการบำรุงรักษา",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 4
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "day": "วันจันทร์",
+      "classes": []
+    },
+    {
+      "day": "วันอังคาร",
+      "classes": [
+        {
+          "period": 4,
+          "time": "10:00-13:00",
+          "subject_code": "21901-2016",
+          "room": "431 (คอม4)",
+          "group": "672190101 เว็บ (IT) 1"
+        },
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "21910-2015",
+          "room": "442 (คอม9)",
+          "group": "672191003 ธดท. กลุ่ม 3"
+        }
+      ]
+    },
+    {
+      "day": "วันพุธ",
+      "classes": [
+        {
+          "period": 8,
+          "time": "15:20-17:20",
+          "subject_code": "21910-2015",
+          "room": "442 (คอม9)",
+          "group": "672191003 ธดท. กลุ่ม 3"
+        }
+      ]
+    },
+    {
+      "day": "วันพฤหัสบดี",
+      "classes": [
+        {
+          "period": 5,
+          "time": "12:00-14:00",
+          "subject_code": "21910-2018",
+          "room": "431 (คอม4)",
+          "group": "672191003 ธดท. กลุ่ม 3"
+        }
+      ]
+    },
+    {
+      "day": "วันศุกร์",
+      "classes": [
+        {
+          "period": 3,
+          "time": "10:00-12:00",
+          "subject_code": "21910-2018",
+          "room": "641 (คอม10)",
+          "group": "672191003 ธดท. กลุ่ม 3"
+        }
+      ]
+    }
+  ],
+  "special_duty": "กิจกรรมหน้าเสาธง",
+  "summary": {
+    "total_theory_hours": 5,
+    "total_practice_hours": 6,
+    "total_credits": 8,
+    "total_hours": 11
+  }
+}

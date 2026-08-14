@@ -1,0 +1,175 @@
+{
+  "semester": "1/2569",
+  "teacher": "นางสุพัตรา เมืองฤกษ์",
+  "department": "ธุรกิจดิจิทัลและเทคโนโลยีสารสนเทศ",
+  "subjects": [
+    {
+      "subject_code": "20001-1005",
+      "subject_name": "การใช้เทคโนโลยีดิจิทัลเพื่ออาชีพ",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "21910-1005",
+      "subject_name": "กฎหมายธุรกรรมทางอิเล็กทรอนิกส์",
+      "hours": {
+        "theory": 2,
+        "practice": 0,
+        "credit": 2,
+        "total": 2
+      }
+    },
+    {
+      "subject_code": "21910-2015",
+      "subject_name": "โปรแกรมมัลติมีเดีย",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 12
+      }
+    },
+    {
+      "subject_code": "21910-2022",
+      "subject_name": "โครงงานด้านเทคโนโลยีธุรกิจดิจิทัล",
+      "hours": {
+        "theory": 0,
+        "practice": 12,
+        "credit": 4,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "30000-2001",
+      "subject_name": "กิจกรรมเสริมสร้างสุจริต จิตอาสา",
+      "hours": {
+        "theory": 0,
+        "practice": 2,
+        "credit": 0,
+        "total": 2
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "day": "วันจันทร์",
+      "classes": [
+        {
+          "period": 2,
+          "time": "08:00-10:00",
+          "subject_code": "21910-2015",
+          "room": "442 (คอม9)",
+          "group": "672191002 ธดท. กลุ่ม 2"
+        },
+        {
+          "period": 4,
+          "time": "10:00-12:00",
+          "subject_code": "21910-2015",
+          "room": "442 (คอม9)",
+          "group": "672191001 ธดท. กลุ่ม 1"
+        },
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "20001-1005",
+          "room": "442 (คอม9)",
+          "group": "682150401 คอ.2/1"
+        }
+      ]
+    },
+    {
+      "day": "วันอังคาร",
+      "classes": [
+        {
+          "period": 4,
+          "time": "10:00-12:00",
+          "subject_code": "20001-1005",
+          "room": "442 (คอม9)",
+          "group": "682150401 คอ.2/1"
+        },
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "21910-2015",
+          "room": "442 (คอม9)",
+          "group": "672191003 ธดท. กลุ่ม 3"
+        }
+      ]
+    },
+    {
+      "day": "วันพุธ",
+      "classes": [
+        {
+          "period": 2,
+          "time": "08:00-10:00",
+          "subject_code": "21910-2022",
+          "room": "442 (คอม9)",
+          "group": "672191002 ธดท. กลุ่ม 2"
+        },
+        {
+          "period": 9,
+          "time": "15:20-17:20",
+          "subject_code": "21910-2015",
+          "room": "442 (คอม9)",
+          "group": "672191003 ธดท. กลุ่ม 3"
+        }
+      ]
+    },
+    {
+      "day": "วันพฤหัสบดี",
+      "classes": [
+        {
+          "period": 2,
+          "time": "08:00-10:00",
+          "subject_code": "21910-1005",
+          "room": "433 (คอม3)",
+          "group": "672191002 ธดท. กลุ่ม 2"
+        },
+        {
+          "period": 4,
+          "time": "10:00-12:00",
+          "subject_code": "21910-2015",
+          "room": "442 (คอม9)",
+          "group": "672191002 ธดท. กลุ่ม 2"
+        },
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "30000-2001",
+          "room": "ลานอเนกประสงค์ 2",
+          "group": "693191001 ธดท.1/1"
+        }
+      ]
+    },
+    {
+      "day": "วันศุกร์",
+      "classes": [
+        {
+          "period": 2,
+          "time": "08:00-10:00",
+          "subject_code": "21910-2015",
+          "room": "641 (คอม10)",
+          "group": "672191001 ธดท. กลุ่ม 1"
+        },
+        {
+          "period": 4,
+          "time": "10:00-12:00",
+          "subject_code": "21910-2022",
+          "room": "5.1",
+          "group": "672191002 ธดท. กลุ่ม 2"
+        }
+      ]
+    }
+  ],
+  "special_duty": "กิจกรรมหน้าเสาธง",
+  "summary": {
+    "total_theory_hours": 6,
+    "total_practice_hours": 18,
+    "total_credits": 12,
+    "total_hours": 24
+  }
+}

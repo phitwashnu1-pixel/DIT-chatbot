@@ -1,0 +1,73 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 6",
+  "room": "644 (ปฏิบัติคอมเลขา)",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [3, 4],
+        "time": "09:00-11:00",
+        "subject_code": "30215-2003",
+        "group": "กจ.กลุ่ม 2 (ม.6)",
+        "teacher": "กาญจนา"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "30216-2011",
+        "group": "กจ.1/2 (ต่างสาขา)",
+        "teacher": "วรรณิภา"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [7],
+        "time": "13:00-16:20",
+        "subject_code": "30216-2011",
+        "group": "กจ.1/1",
+        "teacher": "กาญจนา"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [3, 4],
+        "time": "09:00-12:00",
+        "subject_code": "30001-1002",
+        "group": "กจ.1/2 (ต่างสาขา/ง.6)",
+        "teacher": "กาญจนา"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "30215-2003",
+        "group": "กจ.กลุ่ม 2 (ม.6)",
+        "teacher": "กาญจนา"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "30216-2011",
+        "group": "กจ.1/1",
+        "teacher": "กาญจนา"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [3, 4],
+        "time": "09:00-11:00",
+        "subject_code": "21910-2003",
+        "group": "เว็บ(IT) 1",
+        "teacher": "ทิฐิพล"
+      },
+      {
+        "periods": [7, 8],
+        "time": "13:00-16:20",
+        "subject_code": "20001-1001",
+        "group": "คอ.2/3",
+        "teacher": "กาญจนา"
+      }
+    ]
+  }
+}

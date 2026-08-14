@@ -1,0 +1,195 @@
+{
+  "semester": "1/2569",
+  "teacher": "นายทิฐิพล วรรณดี",
+  "department": "ธุรกิจดิจิทัลและเทคโนโลยีสารสนเทศ",
+  "subjects": [
+    {
+      "subject_code": "20000-2003",
+      "subject_name": "กิจกรรมเสริมสร้างสุจริต จิตอาสา",
+      "hours": {
+        "theory": 0,
+        "practice": 2,
+        "credit": 0,
+        "total": 2
+      }
+    },
+    {
+      "subject_code": "20001-1001",
+      "subject_name": "สุขภาพความปลอดภัยและสิ่งแวดล้อม",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 2,
+        "total": 3
+      }
+    },
+    {
+      "subject_code": "21900-1002",
+      "subject_name": "โครงสร้างข้อมูลและอัลกอริทึมเบื้องต้น",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 2,
+        "total": 3
+      }
+    },
+    {
+      "subject_code": "21900-1003",
+      "subject_name": "การออกแบบและจัดการฐานข้อมูล",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 2,
+        "total": 3
+      }
+    },
+    {
+      "subject_code": "21905-2005",
+      "subject_name": "หลักการพัฒนาแนวความคิดในการออกแบบ",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "21905-2011",
+      "subject_name": "การผลิตเกมคอมพิวเตอร์ด้วยเกมเอนจิน",
+      "hours": {
+        "theory": 1,
+        "practice": 4,
+        "credit": 3,
+        "total": 5
+      }
+    },
+    {
+      "subject_code": "21910-2003",
+      "subject_name": "องค์ประกอบศิลป์สำหรับงานกราฟิก",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 4
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "day": "วันจันทร์",
+      "classes": [
+        {
+          "period": 2,
+          "time": "09:00-11:00",
+          "subject_code": "21910-2003",
+          "room": "431 (คอม4)",
+          "group": "672190101 เริ่ม (IT) 1"
+        },
+        {
+          "period": 8,
+          "time": "15:20-17:20",
+          "subject_code": "21905-2011",
+          "room": "622 (คอม7)",
+          "group": "692190501 เกม.1/1"
+        }
+      ]
+    },
+    {
+      "day": "วันอังคาร",
+      "classes": [
+        {
+          "period": 3,
+          "time": "10:00-11:00",
+          "subject_code": "21900-1002",
+          "room": "622 (คอม7)",
+          "group": "692190501 เกม.1/1"
+        },
+        {
+          "period": 5,
+          "time": "11:00-14:00",
+          "subject_code": "20001-1001",
+          "room": "433 (คอม3)",
+          "group": "692190501 เกม.1/1"
+        },
+        {
+          "period": 8,
+          "time": "15:20-17:20",
+          "subject_code": "21905-2005",
+          "room": "442 (คอม9)",
+          "group": "692190501 เกม.1/1"
+        }
+      ]
+    },
+    {
+      "day": "วันพุธ",
+      "classes": [
+        {
+          "period": 3,
+          "time": "10:00-11:00",
+          "subject_code": "21900-1003",
+          "room": "433 (คอม3)",
+          "group": "692190501 เกม.1/1"
+        },
+        {
+          "period": 5,
+          "time": "11:00-14:00",
+          "subject_code": "21905-2011",
+          "room": "443 (คอม2)",
+          "group": "692190501 เกม.1/1"
+        }
+      ]
+    },
+    {
+      "day": "วันพฤหัสบดี",
+      "classes": [
+        {
+          "period": 6,
+          "time": "12:00-14:00",
+          "subject_code": "21900-1003",
+          "room": "443 (คอม2)",
+          "group": "692190501 เกม.1/1"
+        },
+        {
+          "period": 7,
+          "time": "14:00-16:20",
+          "subject_code": "21905-2005",
+          "room": "443 (คอม2)",
+          "group": "692190501 เกม.1/1"
+        }
+      ]
+    },
+    {
+      "day": "วันศุกร์",
+      "classes": [
+        {
+          "period": 2,
+          "time": "09:00-11:00",
+          "subject_code": "21910-2003",
+          "room": "644 (ปฏิบัติคอมเลขา)",
+          "group": "672190101 เริ่ม (IT) 1"
+        },
+        {
+          "period": 4,
+          "time": "11:00-13:00",
+          "subject_code": "21900-1002",
+          "room": "433 (คอม3)",
+          "group": "692190501 เกม.1/1"
+        },
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "20000-2003",
+          "room": "ลานอเนกประสงค์ 1",
+          "group": "682190101 IT 2/1"
+        }
+      ]
+    }
+  ],
+  "special_duty": "",
+  "summary": {
+    "total_theory_hours": 8,
+    "total_practice_hours": 16,
+    "total_credits": 15,
+    "total_hours": 24
+  }
+}

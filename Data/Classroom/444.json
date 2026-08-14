@@ -1,0 +1,143 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 4",
+  "room": "444(คอม5)",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "30001-1003",
+        "group": "คอ.กลุ่ม 1 (ม.6)",
+        "teacher": "ชนานิศ"
+      },
+      {
+        "periods": [4],
+        "time": "10:00-12:00",
+        "subject_code": "30001-1003",
+        "group": "คอ.กลุ่ม 1",
+        "teacher": "ชนานิศ"
+      },
+      {
+        "periods": [8],
+        "time": "14:00-16:20",
+        "subject_code": "31910-1003",
+        "group": "ธดท.1/1",
+        "teacher": "ชนานิศ"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "20001-1005",
+        "group": "กท.2/1",
+        "teacher": "ภคพร"
+      },
+      {
+        "periods": [4],
+        "time": "10:00-12:00",
+        "subject_code": "30001-1003",
+        "group": "คอ.กลุ่ม 1",
+        "teacher": "ชนานิศ"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "21901-2010",
+        "group": "IT 1",
+        "teacher": "อรอนงค์,เขมมิกา"
+      },
+      {
+        "periods": [7],
+        "time": "13:00-15:00",
+        "subject_code": "21901-2007",
+        "group": "IT 2/1",
+        "teacher": "วรสิทธิ์"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "20001-1003",
+        "group": "ธดท.2/2",
+        "teacher": "ภคพร"
+      },
+      {
+        "periods": [4],
+        "time": "10:00-12:00",
+        "subject_code": "31910-2029",
+        "group": "ธดท.กลุ่ม 1",
+        "teacher": "ชนานิศ"
+      },
+      {
+        "periods": [7],
+        "time": "13:00-15:00",
+        "subject_code": "21910-1004",
+        "group": "ธดท.กลุ่ม 1",
+        "teacher": "ภคพร"
+      },
+      {
+        "periods": [9],
+        "time": "15:20-17:20",
+        "subject_code": "31910-1003",
+        "group": "ธดท.1/2",
+        "teacher": "ชนานิศ"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "31910-1003",
+        "group": "ธดท.1/1",
+        "teacher": "ชนานิศ"
+      },
+      {
+        "periods": [4],
+        "time": "10:00-12:00",
+        "subject_code": "31910-2029",
+        "group": "ธดท.กลุ่ม 1",
+        "teacher": "ชนานิศ"
+      },
+      {
+        "periods": [7],
+        "time": "14:00-15:00",
+        "subject_code": "21910-1004",
+        "group": "ธดท.",
+        "teacher": "ภคพร"
+      },
+      {
+        "periods": [9],
+        "time": "15:20-17:20",
+        "subject_code": "31910-2004",
+        "group": "ธดท.1/2",
+        "teacher": "นฤมล"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "30001-1003",
+        "group": "คอ.กลุ่ม 1 (ม.6)",
+        "teacher": "ชนานิศ"
+      },
+      {
+        "periods": [4],
+        "time": "10:00-12:00",
+        "subject_code": "31910-1003",
+        "group": "ธดท.1/2",
+        "teacher": "ชนานิศ"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "21901-2002",
+        "group": "IT 1",
+        "teacher": "เมธาสิทธิ์, กนวรรณ"
+      }
+    ]
+  }
+}

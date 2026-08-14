@@ -1,0 +1,158 @@
+{
+   "semester": "1/2569",
+  "teacher": "นางชนานิศ มีพฤกษ์",
+  "department": "ธุรกิจดิจิทัลและเทคโนโลยีสารสนเทศ",
+  "subjects": [
+    {
+      "subject_code": "20000-2005",
+      "subject_name": "กิจกรรมองค์การวิชาชีพ 2",
+      "hours": {
+        "theory": 0,
+        "practice": 2,
+        "credit": 0,
+        "total": 2
+      }
+    },
+    {
+      "subject_code": "30001-1003",
+      "subject_name": "การประยุกต์ใช้เทคโนโลยีดิจิทัลในอาชีพ",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 8
+      }
+    },
+    {
+      "subject_code": "31910-1003",
+      "subject_name": "การวิเคราะห์ข้อมูล",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 8
+      }
+    },
+    {
+      "subject_code": "31910-2029",
+      "subject_name": "โครงงานด้านเทคโนโลยีธุรกิจดิจิทัล",
+      "hours": {
+        "theory": 0,
+        "practice": 12,
+        "credit": 4,
+        "total": 4
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "day": "วันจันทร์",
+      "classes": [
+        {
+          "period": 2,
+          "time": "08:00-10:00",
+          "subject_code": "30001-1003",
+          "room": "444 (คอม5)",
+          "group": "683150402 คอ.กลุ่ม 1 (ม.6)"
+        },
+        {
+          "period": 4,
+          "time": "10:00-12:00",
+          "subject_code": "30001-1003",
+          "room": "444 (คอม5)",
+          "group": "683150401 คอ.กลุ่ม 1"
+        },
+        {
+          "period": 8,
+          "time": "14:00-16:20",
+          "subject_code": "31910-1003",
+          "room": "444 (คอม5)",
+          "group": "693191001 ธดท.1/1 ทวิภาคี"
+        }
+      ]
+    },
+    {
+      "day": "วันอังคาร",
+      "classes": [
+        {
+          "period": 4,
+          "time": "10:00-12:00",
+          "subject_code": "30001-1003",
+          "room": "444 (คอม5)",
+          "group": "683150401 คอ.กลุ่ม 1"
+        }
+      ]
+    },
+    {
+      "day": "วันพุธ",
+      "classes": [
+        {
+          "period": 4,
+          "time": "10:00-12:00",
+          "subject_code": "31910-2029",
+          "room": "444 (คอม5)",
+          "group": "683191001 ธดท.กลุ่ม 1"
+        },
+        {
+          "period": 8,
+          "time": "15:20-17:20",
+          "subject_code": "31910-1003",
+          "room": "444 (คอม5)",
+          "group": "693191002 ธดท.1/2 ทวิภาคี"
+        }
+      ]
+    },
+    {
+      "day": "วันพฤหัสบดี",
+      "classes": [
+        {
+          "period": 2,
+          "time": "08:00-10:00",
+          "subject_code": "31910-1003",
+          "room": "444 (คอม5)",
+          "group": "693191001 ธดท.1/1 ทวิภาคี"
+        },
+        {
+          "period": 4,
+          "time": "10:00-12:00",
+          "subject_code": "31910-2029",
+          "room": "444 (คอม5)",
+          "group": "683191001 ธดท.กลุ่ม 1"
+        }
+      ]
+    },
+    {
+      "day": "วันศุกร์",
+      "classes": [
+        {
+          "period": 2,
+          "time": "08:00-10:00",
+          "subject_code": "30001-1003",
+          "room": "444 (คอม5)",
+          "group": "683150402 คอ.กลุ่ม 1 (ม.6)"
+        },
+        {
+          "period": 4,
+          "time": "10:00-12:00",
+          "subject_code": "31910-1003",
+          "room": "444 (คอม5)",
+          "group": "693191002 ธดท.1/2 ทวิภาคี"
+        },
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "20000-2005",
+          "room": "ลานอเนกประสงค์ 1",
+          "group": "672190101 เรียน (IT) 1"
+        }
+      ]
+    }
+  ],
+  "special_duty": "",
+  "summary": {
+    "total_theory_hours": 4,
+    "total_practice_hours": 18,
+    "total_credits": 10,
+    "total_hours": 22
+  }
+}

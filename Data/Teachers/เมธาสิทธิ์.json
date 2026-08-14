@@ -1,0 +1,257 @@
+{
+  "semester": "1/2569",
+  "teacher": "นายเมธาสิทธิ์ พลวัชรินทร์",
+  "department": "ธุรกิจดิจิทัลและเทคโนโลยีสารสนเทศ",
+  "subjects": [
+    {
+      "subject_code": "20000-2001",
+      "subject_name": "กิจกรรมลูกเสือวิสามัญ",
+      "hours": {
+        "theory": 0,
+        "practice": 2,
+        "credit": 0,
+        "total": 2
+      }
+    },
+    {
+      "subject_code": "20001-1003",
+      "subject_name": "ธุรกิจเบื้องต้น",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 2,
+        "total": 3
+      }
+    },
+    {
+      "subject_code": "21901-2002",
+      "subject_name": "การสร้างเว็บไซต์",
+      "hours": {
+        "theory": 1,
+        "practice": 4,
+        "credit": 3,
+        "total": 5
+      }
+    },
+    {
+      "subject_code": "21901-2021",
+      "subject_name": "โครงงานด้านเทคโนโลยีสารสนเทศ",
+      "hours": {
+        "theory": 0,
+        "practice": 12,
+        "credit": 4,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "21910-1004",
+      "subject_name": "พาณิชย์อิเล็กทรอนิกส์เบื้องต้น",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 2,
+        "total": 3
+      }
+    },
+    {
+      "subject_code": "21910-2012",
+      "subject_name": "โปรแกรมฐานข้อมูล",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "21910-2018",
+      "subject_name": "คอมพิวเตอร์และการบำรุงรักษา",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "31910-0002",
+      "subject_name": "องค์ประกอบศิลป์สำหรับงานกราฟิก",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "31910-0003",
+      "subject_name": "การสร้างเว็บไซต์",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 4
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "day": "วันจันทร์",
+      "classes": [
+        {
+          "period": 3,
+          "time": "10:00-12:00",
+          "subject_code": "21910-2018",
+          "room": "433 (คอม3)",
+          "group": "672191002 ธดท. กลุ่ม 2"
+        },
+        {
+          "period": 6,
+          "time": "13:00-14:00",
+          "subject_code": "20000-2001",
+          "room": "ลานสนามประสงค์",
+          "group": "692190501 เกม.1/1"
+        },
+        {
+          "period": 8,
+          "time": "15:20-17:20",
+          "subject_code": "21901-2002",
+          "room": "641 (คอม10)",
+          "group": "692190101 IT 1/1"
+        }
+      ]
+    },
+    {
+      "day": "วันอังคาร",
+      "classes": [
+        {
+          "period": 1,
+          "time": "08:00-10:00",
+          "subject_code": "21910-2018",
+          "room": "431 (คอม4)",
+          "group": "672191002 ธดท. กลุ่ม 2"
+        },
+        {
+          "period": 4,
+          "time": "11:00-13:00",
+          "subject_code": "21910-2018",
+          "room": "441 (คอม1)",
+          "group": "672191001 ธดท. กลุ่ม 1"
+        },
+        {
+          "period": 10,
+          "time": "17:20-19:20",
+          "subject_code": "31910-0003",
+          "room": "5.1",
+          "group": "693191003 ธดท.1/2"
+        }
+      ]
+    },
+    {
+      "day": "วันพุธ",
+      "classes": [
+        {
+          "period": 2,
+          "time": "09:00-10:00",
+          "subject_code": "21910-1004",
+          "room": "431 (คอม4)",
+          "group": "672191003"
+        },
+        {
+          "period": 3,
+          "time": "10:00-12:00",
+          "subject_code": "21910-2018",
+          "room": "431 (คอม4)",
+          "group": "672191001 ธตท. กลุ่ม 1"
+        },
+        {
+          "period": 5,
+          "time": "12:00-13:00",
+          "subject_code": "20001-1003",
+          "room": "431 (คอม4)",
+          "group": "682190101 IT 2"
+        },
+        {
+          "period": 8,
+          "time": "15:20-17:20",
+          "subject_code": "21901-2021",
+          "room": "431 (คอม4)",
+          "group": "672190101 เรียน (IT) 1"
+        },
+        {
+          "period": 10,
+          "time": "17:20-19:20",
+          "subject_code": "31910-0003",
+          "room": "5.1",
+          "group": "693191003 ธดท.1/2"
+        }
+      ]
+    },
+    {
+      "day": "วันพฤหัสบดี",
+      "classes": [
+        {
+          "period": 2,
+          "time": "09:00-10:00",
+          "subject_code": "20001-1003",
+          "room": "442 (คอม9)",
+          "group": "682190101 IT 2/1"
+        },
+        {
+          "period": 3,
+          "time": "10:00-11:00",
+          "subject_code": "21901-2002",
+          "room": "641 (คอม10)",
+          "group": "692190101 IT 1/1"
+        },
+        {
+          "period": 5,
+          "time": "12:00-13:00",
+          "subject_code": "21901-2021",
+          "room": "441 (คอม1)",
+          "group": "672190101"
+        },
+        {
+          "period": 8,
+          "time": "15:20-17:20",
+          "subject_code": "21910-1004",
+          "room": "641 (คอม10)",
+          "group": "672191003 ธดท. กลุ่ม 3"
+        }
+      ]
+    },
+    {
+      "day": "วันศุกร์",
+      "classes": [
+        {
+          "period": 2,
+          "time": "09:00-12:00",
+          "subject_code": "21910-2012",
+          "room": "431 (คอม4)",
+          "group": "682191001 ธดท.2/2"
+        },
+        {
+          "period": 5,
+          "time": "12:00-13:00",
+          "subject_code": "21901-2002",
+          "room": "444 (คอม5)",
+          "group": "692190101 IT 1"
+        },
+        {
+          "period": 8,
+          "time": "15:20-18:20",
+          "subject_code": "31910-0002",
+          "room": "5.1",
+          "group": "693191003 ธดท.1/2"
+        }
+      ]
+    }
+  ],
+  "special_duty": "คณะทำงานพัสดุ/งานอาคารสถานที่/งานศูนย์ข้อมูลสารสนเทศ",
+  "summary": {
+    "total_theory_hours": 11,
+    "total_practice_hours": 30,
+    "total_credits": 23,
+    "total_hours": 37
+  }
+}

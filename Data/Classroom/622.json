@@ -1,0 +1,101 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 6",
+  "room": "622 (คอม7)",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [2, 3],
+        "time": "08:00-12:00",
+        "subject_code": "31910-2007",
+        "group": "ธดท.กลุ่ม 1, ธคท.กลุ่ม 1 (ต่างสังกัด)",
+        "teacher": "จักรกฤษณ์"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "21910-1005",
+        "group": "ธดท.กลุ่ม 1",
+        "teacher": "วรสิทธิ์"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "21905-2011",
+        "group": "เกม.1/1",
+        "teacher": "ทิฐิพล"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "31910-2002",
+        "group": "ธดท.1/1",
+        "teacher": "จักรกฤษณ์"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-11:00",
+        "subject_code": "21900-1002",
+        "group": "เกม.1/1",
+        "teacher": "ทิฐิพล"
+      },
+      {
+        "periods": [6, 7, 8],
+        "time": "13:00-17:20",
+        "subject_code": "31910-2007",
+        "group": "ธดท.1/2, ธดท.1/2 (ต่างสังกัด)",
+        "teacher": "จักรกฤษณ์"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [2, 3],
+        "time": "08:00-12:00",
+        "subject_code": "31910-2007",
+        "group": "ธดท.1/1",
+        "teacher": "จักรกฤษณ์"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [2, 3],
+        "time": "08:00-11:00",
+        "subject_code": "21910-1003",
+        "group": "ธดท.1/1",
+        "teacher": "วรสิทธิ์"
+      },
+      {
+        "periods": [6],
+        "time": "12:00-14:00",
+        "subject_code": "21901-2015",
+        "group": "IT 2/1",
+        "teacher": "วรสิทธิ์"
+      },
+      {
+        "periods": [7],
+        "time": "14:00-15:00",
+        "subject_code": "21901-2007",
+        "group": "IT 2",
+        "teacher": "วรสิทธิ์"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "31910-2004",
+        "group": "ธดท.1/1",
+        "teacher": "นฤมล"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "31910-2002",
+        "group": "ธดท.1/1",
+        "teacher": "จักรกฤษณ์"
+      }
+    ]
+  }
+}

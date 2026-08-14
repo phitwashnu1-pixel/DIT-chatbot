@@ -1,0 +1,199 @@
+{
+  "semester": "1/2569",
+  "teacher": "นายวรสิทธิ์ คงประเสริฐ",
+  "department": "ธุรกิจดิจิทัลและเทคโนโลยีสารสนเทศ",
+  "subjects": [
+    {
+      "subject_code": "20000-2005",
+      "subject_name": "กิจกรรมองค์การวิชาชีพ 2",
+      "hours": {
+        "theory": 0,
+        "practice": 2,
+        "credit": 2,
+        "total": 2
+      }
+    },
+    {
+      "subject_code": "21900-1001",
+      "subject_name": "การเขียนโปรแกรมคอมพิวเตอร์",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 3,
+        "total": 3
+      }
+    },
+    {
+      "subject_code": "21901-2004",
+      "subject_name": "การซ่อมและบำรุงรักษาคอมพิวเตอร์",
+      "hours": {
+        "theory": 1,
+        "practice": 3,
+        "credit": 4,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "21901-2007",
+      "subject_name": "เทคโนโลยีระบบสมองกลฝังตัวและไอโอที",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 3,
+        "total": 3
+      }
+    },
+    {
+      "subject_code": "21901-2015",
+      "subject_name": "การติดตั้งระบบเครือข่ายคอมพิวเตอร์เบื้องต้น",
+      "hours": {
+        "theory": 1,
+        "practice": 3,
+        "credit": 4,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "21901-2016",
+      "subject_name": "โปรแกรมจำลองการทำงานด้วยคอมพิวเตอร์",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 3,
+        "total": 3
+      }
+    },
+    {
+      "subject_code": "21910-1003",
+      "subject_name": "การเขียนโปรแกรมคอมพิวเตอร์เบื้องต้น",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 3,
+        "total": 3
+      }
+    },
+    {
+      "subject_code": "21910-1005",
+      "subject_name": "กฎหมายธุรกรรมทางอิเล็กทรอนิกส์",
+      "hours": {
+        "theory": 2,
+        "practice": 0,
+        "credit": 2,
+        "total": 2
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "day": "วันจันทร์",
+      "classes": [
+        {
+          "period": 4,
+          "time": "11:00-13:00",
+          "subject_code": "21901-2004",
+          "room": "431 (คอม4)",
+          "group": "672190101 เว็บ (IT) 1"
+        },
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "21910-1005",
+          "room": "622 (คอม7)",
+          "group": "672191001 ธดท. กลุ่ม 1"
+        }
+      ]
+    },
+    {
+      "day": "วันอังคาร",
+      "classes": [
+        {
+          "period": 4,
+          "time": "10:00-13:00",
+          "subject_code": "21901-2016",
+          "room": "431 (คอม4)",
+          "group": "672190101 เว็บ (IT) 1"
+        },
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "21901-2007",
+          "room": "444 (คอม5)",
+          "group": "682190101 IT 2/1"
+        }
+      ]
+    },
+    {
+      "day": "วันพุธ",
+      "classes": [
+        {
+          "period": 4,
+          "time": "11:00-13:00",
+          "subject_code": "21901-2004",
+          "room": "433 (คอม3)",
+          "group": "672190101 เว็บ (IT) 1"
+        },
+        {
+          "period": 8,
+          "time": "14:00-17:20",
+          "subject_code": "21900-1001",
+          "room": "443 (คอม2)",
+          "group": "692190101 IT 1/1"
+        }
+      ]
+    },
+    {
+      "day": "วันพฤหัสบดี",
+      "classes": [
+        {
+          "period": 2,
+          "time": "08:00-11:00",
+          "subject_code": "21910-1003",
+          "room": "622 (คอม7)",
+          "group": "692191001 ธดท.1/1"
+        },
+        {
+          "period": 5,
+          "time": "12:00-14:00",
+          "subject_code": "21901-2015",
+          "room": "622 (คอม7)",
+          "group": "682190101 IT 2/1"
+        },
+        {
+          "period": 6,
+          "time": "14:00-15:00",
+          "subject_code": "21901-2007",
+          "room": "622 (คอม7)",
+          "group": "682190101 IT 2/1"
+        }
+      ]
+    },
+    {
+      "day": "วันศุกร์",
+      "classes": [
+        {
+          "period": 4,
+          "time": "11:00-13:00",
+          "subject_code": "21901-2015",
+          "room": "442 (คอม9)",
+          "group": "682190101 IT 2/1"
+        },
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "20000-2005",
+          "room": "ลานอเนกประสงค์ 1",
+          "group": "672191003 ธดท. กลุ่ม 3"
+        }
+      ]
+    }
+  ],
+  "special_duty": "หัวหน้างานวิทยบริการและเทคโนโลยีการศึกษา",
+  "summary": {
+    "total_theory_hours": 8,
+    "total_practice_hours": 16,
+    "total_credits": 24,
+    "total_hours": 24
+  },
+  "source": "ข้อมูลสกัดจากไฟล์ PDF ที่อัปโหลด :contentReference[oaicite:0]{index=0}"
+}

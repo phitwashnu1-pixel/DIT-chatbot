@@ -1,0 +1,150 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 3 พื้นฐาน",
+  "room": "324",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [1],
+        "time": "08:00-09:00",
+        "subject_code": "20000-1301",
+        "group": "บช.1/2",
+        "teacher": "เสาวลักษณ์"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-11:00",
+        "subject_code": "20000-1301",
+        "group": "บช.1/1",
+        "teacher": "เสาวลักษณ์"
+      },
+      {
+        "periods": [4],
+        "time": "11:00-12:00",
+        "subject_code": "20000-1301",
+        "group": "ฟช.1/1",
+        "teacher": "เสาวลักษณ์"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "20000-1301",
+        "group": "วจ.1/1",
+        "teacher": "เสาวลักษณ์"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-16:20",
+        "subject_code": "20000-1301",
+        "group": "ธดท.2/2",
+        "teacher": "เสาวลักษณ์"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [1, 2],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1301",
+        "group": "บช.1/2",
+        "teacher": "เสาวลักษณ์"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1301",
+        "group": "บช.1/1",
+        "teacher": "เสาวลักษณ์"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-16:20",
+        "subject_code": "20000-1301",
+        "group": "ดจฟ.1/1",
+        "teacher": "เสาวลักษณ์"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [3, 4],
+        "time": "09:00-12:00",
+        "subject_code": "20000-1301",
+        "group": "กท.1/1",
+        "teacher": "เสาวลักษณ์"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "20000-1301",
+        "group": "ลข.",
+        "teacher": "เสาวลักษณ์"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1201",
+        "group": "กร.1/1",
+        "teacher": "Eugne"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-16:20",
+        "subject_code": "20000-1301",
+        "group": "วจ.1",
+        "teacher": "เสาวลักษณ์"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [1, 2],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1301",
+        "group": "กต.1/1",
+        "teacher": "มิ่งมล"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-13:00",
+        "subject_code": "20000-1301",
+        "group": "คอ.1/3",
+        "teacher": "มิ่งมล"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1301",
+        "group": "กต.1/2",
+        "teacher": "มิ่งมล"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "20001-1001",
+        "group": "กร.2/3",
+        "teacher": "มิ่งมล"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1301",
+        "group": "คอ.1/2",
+        "teacher": "มิ่งมล"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "20000-1301",
+        "group": "วจ.1",
+        "teacher": "เสาวลักษณ์"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-14:00",
+        "subject_code": "20000-1401",
+        "group": "กร.1/1",
+        "teacher": "สุธาสินี"
+      }
+    ]
+  }
+}

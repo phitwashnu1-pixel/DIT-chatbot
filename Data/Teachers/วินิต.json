@@ -1,0 +1,212 @@
+{
+  "semester": "1/2569",
+  "teacher": "นายวินิต สืบสอน",
+  "department": "ธุรกิจดิจิทัลและเทคโนโลยีสารสนเทศ",
+  "subjects": [
+    {
+      "subject_code": "20001-1004",
+      "subject_name": "กฎหมายแรงงาน",
+      "hours": {
+        "theory": 1,
+        "practice": 0,
+        "credit": 1,
+        "total": 1
+      }
+    },
+    {
+      "subject_code": "20001-1005",
+      "subject_name": "การใช้เทคโนโลยีดิจิทัลเพื่ออาชีพ",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "21901-2005",
+      "subject_name": "คณิตศาสตร์คอมพิวเตอร์",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 2,
+        "total": 3
+      }
+    },
+    {
+      "subject_code": "21901-2017",
+      "subject_name": "เทคโนโลยีการนำเข้าข้อมูลเข้าสู่ระบบคอมพิวเตอร์",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 2,
+        "total": 3
+      }
+    },
+    {
+      "subject_code": "21910-2009",
+      "subject_name": "คณิตศาสตร์คอมพิวเตอร์",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 2,
+        "total": 3
+      }
+    },
+    {
+      "subject_code": "21910-2020",
+      "subject_name": "โปรแกรมสำเร็จรูปทางสถิติ",
+      "hours": {
+        "theory": 2,
+        "practice": 2,
+        "credit": 3,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "21910-2022",
+      "subject_name": "โครงงานด้านเทคโนโลยีธุรกิจดิจิทัล",
+      "hours": {
+        "theory": 0,
+        "practice": 12,
+        "credit": 4,
+        "total": 4
+      }
+    },
+    {
+      "subject_code": "30000-2001",
+      "subject_name": "กิจกรรมเสริมสร้างสุจริต จิตอาสา",
+      "hours": {
+        "theory": 0,
+        "practice": 2,
+        "credit": 0,
+        "total": 2
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "day": "วันจันทร์",
+      "classes": [
+        {
+          "period": 6,
+          "time": "12:00-14:00",
+          "subject_code": "21910-2022",
+          "room": "433 (คอม3)",
+          "group": "672191003 ธดท. กลุ่ม 3"
+        },
+        {
+          "period": 8,
+          "time": "14:00-17:20",
+          "subject_code": "21901-2017",
+          "room": "443 (คอม12)",
+          "group": "672190101 เรียน (IT) 1"
+        }
+      ]
+    },
+    {
+      "day": "วันอังคาร",
+      "classes": [
+        {
+          "period": 2,
+          "time": "08:00-10:00",
+          "subject_code": "21910-2009",
+          "room": "433 (คอม3)",
+          "group": "692191001 ธดท.1/1"
+        },
+        {
+          "period": 4,
+          "time": "10:00-12:00",
+          "subject_code": "21910-2020",
+          "room": "432 (สนง.เลขา)",
+          "group": "672191003 ธดท. กลุ่ม 3"
+        },
+        {
+          "period": 7,
+          "time": "14:00-15:00",
+          "subject_code": "20001-1004",
+          "room": "433 (คอม3)",
+          "group": "672190101"
+        }
+      ]
+    },
+    {
+      "day": "วันพุธ",
+      "classes": [
+        {
+          "period": 4,
+          "time": "10:00-12:00",
+          "subject_code": "21910-2022",
+          "room": "442 (คอม9)",
+          "group": "672191003 ธดท. กลุ่ม 3"
+        },
+        {
+          "period": 5,
+          "time": "12:00-13:00",
+          "subject_code": "21901-2005",
+          "room": "441 (คอม1)",
+          "group": "692190101 IT 1"
+        },
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "20001-1005",
+          "room": "641 (คอม10)",
+          "group": "682150403 คอ.2/3, 682180401"
+        }
+      ]
+    },
+    {
+      "day": "วันพฤหัสบดี",
+      "classes": [
+        {
+          "period": 4,
+          "time": "10:00-12:00",
+          "subject_code": "21910-2020",
+          "room": "441 (คอม1)",
+          "group": "672191003 ธดท. กลุ่ม 3"
+        },
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "30000-2001",
+          "room": "ลานอเนกประสงค์ 2",
+          "group": "693191002 ธดท.1/2"
+        }
+      ]
+    },
+    {
+      "day": "วันศุกร์",
+      "classes": [
+        {
+          "period": 2,
+          "time": "08:00-10:00",
+          "subject_code": "20001-1005",
+          "room": "442 (คอม9)",
+          "group": "682150403 คอ.2/3, 682180401"
+        },
+        {
+          "period": 4,
+          "time": "10:00-11:00",
+          "subject_code": "21910-2009",
+          "room": "442 (คอม9)",
+          "group": "692191001ธดท"
+        },
+        {
+          "period": 6,
+          "time": "13:00-15:00",
+          "subject_code": "21901-2005",
+          "room": "433 (คอม3)",
+          "group": "692190101 IT 1/1"
+        }
+      ]
+    }
+  ],
+  "special_duty": "",
+  "summary": {
+    "total_theory_hours": 8,
+    "total_practice_hours": 24,
+    "total_credits": 17,
+    "total_hours": 24
+  }
+}

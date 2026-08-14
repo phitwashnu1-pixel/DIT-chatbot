@@ -1,0 +1,143 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 4",
+  "room": "441 (คอม1)",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [1, 2],
+        "time": "08:00-10:00",
+        "subject_code": "21910-2022",
+        "group": "ธดท.กลุ่ม 1",
+        "teacher": "อรอนงค์"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "21901-2010",
+        "group": "IT 1/1, IT 1/1, 6921910101 IT",
+        "teacher": "อรอนงค์, เขมมิกา"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "31910-2012",
+        "group": "ธดท. กลุ่ม 1",
+        "teacher": "สัมฤทธิ์"
+      },
+      {
+        "periods": [8, 9],
+        "time": "15:20-17:20",
+        "subject_code": "31910-2011",
+        "group": "ธดท.1/2, ทวภาคี",
+        "teacher": "สัมฤทธิ์"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [2, 3],
+        "time": "08:00-11:00",
+        "subject_code": "21910-2005",
+        "group": "ธดท.2/2",
+        "teacher": "อรอนงค์"
+      },
+      {
+        "periods": [4, 5],
+        "time": "11:00-13:00",
+        "subject_code": "21910-2018",
+        "group": "ธดท. กลุ่ม 1",
+        "teacher": "เมธาสิทธิ์"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "21910-2001",
+        "group": "ธดท.1/1",
+        "teacher": "ภคพร"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [1, 2],
+        "time": "08:00-10:00",
+        "subject_code": "31910-2012",
+        "group": "ธดท. กลุ่ม 1",
+        "teacher": "สัมฤทธิ์"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "31910-2002",
+        "group": "ธดท.1/2",
+        "teacher": "สัมฤทธิ์"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "21901-2005",
+        "group": "IT 1",
+        "teacher": "วินิต"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "21910-2017",
+        "group": "ธดท. กลุ่ม 3",
+        "teacher": "อากรณ์"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [1, 2],
+        "time": "08:00-10:00",
+        "subject_code": "21910-2020",
+        "group": "ธดท. กลุ่ม 1",
+        "teacher": "อรอนงค์"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "21910-2020",
+        "group": "ธดท. กลุ่ม 3",
+        "teacher": "วินิต"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "21901-2021",
+        "group": "เว็บ",
+        "teacher": "เมธาสิทธิ์"
+      },
+      {
+        "periods": [8, 9],
+        "time": "15:20-17:20",
+        "subject_code": "21901-2010",
+        "group": "IT 1/1",
+        "teacher": "อรอนงค์, เขมิกา"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [1, 2],
+        "time": "08:00-10:00",
+        "subject_code": "21910-2020",
+        "group": "ธดท. กลุ่ม 2",
+        "teacher": "อรอนงค์"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "21910-2020",
+        "group": "ธดท. กลุ่ม 1",
+        "teacher": "อรอนงค์"
+      },
+      {
+        "periods": [5, 6],
+        "time": "12:00-14:00",
+        "subject_code": "21910-2001",
+        "group": "ธดท.1/1",
+        "teacher": "ภคพร"
+      }
+    ]
+  }
+}

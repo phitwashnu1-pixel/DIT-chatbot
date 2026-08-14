@@ -1,0 +1,171 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 3 พื้นฐาน",
+  "room": "332",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1501",
+        "group": "คอ.2/2",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-11:00",
+        "subject_code": "20000-1502",
+        "group": "กท.1/1",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "20000-1501",
+        "group": "บช.1/1",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "30000-1308",
+        "group": "ฟช.1/1 ทวิภาคี",
+        "teacher": "มิ่งกมล"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "20000-1501",
+        "group": "บช.1/3",
+        "teacher": "ชนิสรา"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [1],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1501",
+        "group": "ฟช.1/1, ธค.1/1",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-11:00",
+        "subject_code": "20000-1501",
+        "group": "บช.1/2",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1501",
+        "group": "กต.1/1",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "20000-1501",
+        "group": "คอ.2/1",
+        "teacher": "ชนิสรา"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [1],
+        "time": "08:00-10:00",
+        "subject_code": "30000-1501",
+        "group": "ลจ.1/2 ต่างสาขา/ม.6",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1501",
+        "group": "กร.2/1",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "20000-1501",
+        "group": "กร.2/3",
+        "teacher": "ชนิสรา"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [1],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1501",
+        "group": "คอ.2/3",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1501",
+        "group": "ลข.1/1",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "20000-1501",
+        "group": "บช.1/1",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1301",
+        "group": "ลข.1/1",
+        "teacher": "เสาวลักษณ์"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-16:20",
+        "subject_code": "20000-1502",
+        "group": "กท.1/1",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [9],
+        "time": "16:20-17:20",
+        "subject_code": "30000-1501",
+        "group": "ลจ.1/2",
+        "teacher": "ชนิสรา"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [1],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1501",
+        "group": "IT 1/1",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1501",
+        "group": "กต.1/2",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1501",
+        "group": "ลข.1/1",
+        "teacher": "ชนิสรา"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "20000-1501",
+        "group": "กร.2/2",
+        "teacher": "ชนิสรา"
+      }
+    ]
+  }
+}

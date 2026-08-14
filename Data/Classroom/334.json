@@ -1,0 +1,143 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 3 พื้นฐาน",
+  "room": "334",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1223",
+        "group": "กต. กลุ่ม 2",
+        "teacher": "มนัสชา"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "20000-1225",
+        "group": "IT 2/1",
+        "teacher": "มนัสชา"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1101",
+        "group": "ดจฟ.2/1",
+        "teacher": "มนัสชา"
+      },
+      {
+        "periods": [8, 9],
+        "time": "15:20-17:20",
+        "subject_code": "20000-1501",
+        "group": "ดจฟ.1/2",
+        "teacher": "มนัสชา"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [4],
+        "time": "11:00-12:00",
+        "subject_code": "20000-1223",
+        "group": "บช.2/2",
+        "teacher": "มนัสชา"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "20000-1225",
+        "group": "IT 2/1",
+        "teacher": "มนัสชา"
+      },
+      {
+        "periods": [7],
+        "time": "14:00-15:00",
+        "subject_code": "20000-1223",
+        "group": "บช.2/1",
+        "teacher": "มนัสชา"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1101",
+        "group": "ธคก.1/1",
+        "teacher": "มนัสชา"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1223",
+        "group": "อบ.1",
+        "teacher": "มนัสชา"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1225",
+        "group": "ธคท.2/2",
+        "teacher": "มนัสชา"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [3],
+        "time": "09:00-11:00",
+        "subject_code": "20000-1101",
+        "group": "ดจฟ.2/2",
+        "teacher": "มนัสชา"
+      },
+      {
+        "periods": [4],
+        "time": "11:00-12:00",
+        "subject_code": "20000-1223",
+        "group": "บช.2/1",
+        "teacher": "มนัสชา"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "20000-1223",
+        "group": "บช.2/2",
+        "teacher": "มนัสชา"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1101",
+        "group": "วจ.1/1, อบ.",
+        "teacher": "มนัสชา"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1501",
+        "group": "ดจฟ.1/1",
+        "teacher": "มนัสชา"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1223",
+        "group": "บช.2/4",
+        "teacher": "มนัสชา"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1223",
+        "group": "กต. กลุ่ม 1",
+        "teacher": "มนัสชา"
+      },
+      {
+        "periods": [8, 9],
+        "time": "15:20-17:20",
+        "subject_code": "30000-1601",
+        "group": "กร.1/1",
+        "teacher": "เวราภรณ์"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 3 พื้นฐาน",
+  "room": "327",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1301",
+        "group": "คอ.1/1",
+        "teacher": "มิ่งกมล"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "20000-1301",
+        "group": "คอ.1",
+        "teacher": "มิ่งกมล"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "30000-1301",
+        "group": "กท.1/1",
+        "teacher": "สุภาวดี"
+      },
+      {
+        "periods": [8, 9],
+        "time": "15:20-17:20",
+        "subject_code": "30000-1301",
+        "group": "กจ.1/2",
+        "teacher": "สุภาวดี"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [1, 2],
+        "time": "08:00-10:00",
+        "subject_code": "30000-1301",
+        "group": "ธดท.1/2",
+        "teacher": "สุภาวดี"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-11:00",
+        "subject_code": "20000-1301",
+        "group": "กด.1",
+        "teacher": "มิ่งกมล"
+      },
+      {
+        "periods": [7, 8],
+        "time": "14:00-16:20",
+        "subject_code": "20001-1001",
+        "group": "กร.2/1",
+        "teacher": "มิ่งกมล"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [1],
+        "time": "08:00-09:00",
+        "subject_code": "20000-1301",
+        "group": "คอ.1/1",
+        "teacher": "มิ่งกมล"
+      },
+      {
+        "periods": [2, 3],
+        "time": "09:00-11:00",
+        "subject_code": "20000-1303",
+        "group": "เว็บ IT1",
+        "teacher": "สุภาวดี"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "20000-1301",
+        "group": "กด.",
+        "teacher": "มิ่งกมล"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "30000-1301",
+        "group": "กจ.1/1",
+        "teacher": "สุภาวดี"
+      },
+      {
+        "periods": [8, 9],
+        "time": "15:20-17:20",
+        "subject_code": "30000-1308",
+        "group": "ฟช.1/1",
+        "teacher": "สุภาวดี"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [2],
+        "time": "09:00-10:00",
+        "subject_code": "20000-1303",
+        "group": "เว็บ.1",
+        "teacher": "สุภาวดี"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "30000-1301",
+        "group": "กจ.1/1",
+        "teacher": "สุภาวดี"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "30000-1301",
+        "group": "กจ.1/2",
+        "teacher": "สุภาวดี"
+      },
+      {
+        "periods": [8, 9],
+        "time": "15:20-17:20",
+        "subject_code": "30000-1301",
+        "group": "ธดท.1/1",
+        "teacher": "สุภาวดี"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [1, 2],
+        "time": "08:00-10:00",
+        "subject_code": "30000-1301",
+        "group": "ธดท.1/2",
+        "teacher": "สุภาวดี"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "30000-1301",
+        "group": "กท.1/1",
+        "teacher": "สุภาวดี"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "20001-1001",
+        "group": "กร.2",
+        "teacher": "มิ่งกมล"
+      },
+      {
+        "periods": [6, 7],
+        "time": "13:00-15:00",
+        "subject_code": "30000-1301",
+        "group": "ธดท.1/1",
+        "teacher": "สุภาวดี"
+      }
+    ]
+  }
+}

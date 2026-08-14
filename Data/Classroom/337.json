@@ -1,0 +1,136 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 3 พื้นฐาน",
+  "room": "337",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1105",
+        "group": "ธดท.2/2",
+        "teacher": "อัมพิกา"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "20000-1101",
+        "group": "ธดท.1",
+        "teacher": "อัมพิกา"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "30000-1601",
+        "group": "กร.1/2 (ม.6)",
+        "teacher": "เวสารัช"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1105",
+        "group": "คอ.2/1",
+        "teacher": "อัมพิกา"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-12:00",
+        "subject_code": "30000-1101",
+        "group": "กด.1/1",
+        "teacher": "อัมพิกา"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "20000-1101",
+        "group": "บช.1/3",
+        "teacher": "อัมพิกา"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1101",
+        "group": "บช.1/1",
+        "teacher": "อัมพิกา"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1101",
+        "group": "IT 1/1",
+        "teacher": "อัมพิกา"
+      },
+      {
+        "periods": [5],
+        "time": "12:00-13:00",
+        "subject_code": "20000-1101",
+        "group": "ธดท.",
+        "teacher": "อัมพิกา"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1105",
+        "group": "IT 2/1",
+        "teacher": "อัมพิกา"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1103",
+        "group": "ลข.2/1",
+        "teacher": "อัมพิกา"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1101",
+        "group": "กด.1/2",
+        "teacher": "อัมพิกา"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1101",
+        "group": "กต.1/1",
+        "teacher": "อัมพิกา"
+      },
+      {
+        "periods": [9],
+        "time": "16:20-17:20",
+        "subject_code": "30000-1101",
+        "group": "กต.1",
+        "teacher": "อัมพิกา"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [3],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1101",
+        "group": "บช.1/2",
+        "teacher": "อัมพิกา"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1101",
+        "group": "ลข.1/1",
+        "teacher": "อัมพิกา"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "20000-1101",
+        "group": "เกม.1/1",
+        "teacher": "อัมพิกา"
+      }
+    ]
+  }
+}

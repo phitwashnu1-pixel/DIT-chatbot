@@ -1,0 +1,87 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 4",
+  "room": "พิมพ์ดีดไทย 1",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [3],
+        "time": "10:00-11:00",
+        "subject_code": "20001-1004",
+        "group": "วจ.1",
+        "teacher": "ชินาบูรณ์"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "20202-2027",
+        "group": "กด. กลุ่ม 1",
+        "teacher": "ชินาบูรณ์"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-16:20",
+        "subject_code": "20001-1001",
+        "group": "คอ.2",
+        "teacher": "ชินาบูรณ์"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [3],
+        "time": "10:00-12:00",
+        "subject_code": "20001-1001",
+        "group": "คอ.2/2",
+        "teacher": "ชินาบูรณ์"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "20001-1001",
+        "group": "คอ.2/1",
+        "teacher": "ชินาบูรณ์"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-14:00",
+        "subject_code": "20001-1001",
+        "group": "คอ.2",
+        "teacher": "ชินาบูรณ์"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [1],
+        "time": "08:00-09:00",
+        "subject_code": "20001-1004",
+        "group": "ดจฟ.",
+        "teacher": "ชินาบูรณ์"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-12:00",
+        "subject_code": "20202-2027",
+        "group": "กด. กลุ่ม 2",
+        "teacher": "ชินาบูรณ์"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-14:00",
+        "subject_code": "20001-1004",
+        "group": "ดจฟ.",
+        "teacher": "ชินาบูรณ์"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [3],
+        "time": "10:00-12:00",
+        "subject_code": "20203-2018",
+        "group": "ลข.2/1",
+        "teacher": "ชินาบูรณ์"
+      }
+    ]
+  }
+}

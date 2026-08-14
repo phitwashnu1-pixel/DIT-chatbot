@@ -1,0 +1,52 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 4",
+  "room": "พิมพ์ดีดไทย 2",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "30001-1001",
+        "group": "กจ.1/2",
+        "teacher": "อุไรวรรณ"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "31910-2011",
+        "group": "ธดท.1/2",
+        "teacher": "สัมฤทธิ์"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "30001-1001",
+        "group": "กจ.1/1",
+        "teacher": "อุไรวรรณ"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [2, 3],
+        "time": "09:00-11:00",
+        "subject_code": "30001-1001",
+        "group": "กจ.1/2",
+        "teacher": "อุไรวรรณ"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [5, 6],
+        "time": "12:00-14:00",
+        "subject_code": "30001-1001",
+        "group": "กจ.1/1",
+        "teacher": "อุไรวรรณ"
+      }
+    ]
+  }
+}

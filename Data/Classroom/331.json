@@ -1,0 +1,157 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 3 พื้นฐาน",
+  "room": "331",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [2],
+        "time": "09:00-10:00",
+        "subject_code": "30000-1501",
+        "group": "กท.1/1",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "30000-1501",
+        "group": "บช.1/2, บช.1/3",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-15:00",
+        "subject_code": "30000-1501",
+        "group": "ธดท.1/2",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-16:20",
+        "subject_code": "30000-1501",
+        "group": "กจ.1/1",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [9],
+        "time": "16:20-17:20",
+        "subject_code": "30000-1501",
+        "group": "ธดท.1/1",
+        "teacher": "ปัญจวรรณ"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "30000-1501",
+        "group": "กจ.1/2",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [3, 4],
+        "time": "10:00-12:00",
+        "subject_code": "30000-1501",
+        "group": "ธดท.1/1",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [8, 9],
+        "time": "14:20-17:20",
+        "subject_code": "30000-1501",
+        "group": "ดจฟ.1/1, ดจฟ.1/2",
+        "teacher": "ปัญจวรรณ"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [2, 3],
+        "time": "08:00-11:00",
+        "subject_code": "30000-1501",
+        "group": "บช.1/1",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [4],
+        "time": "11:00-12:00",
+        "subject_code": "30000-1501",
+        "group": "บช.1/2",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-14:00",
+        "subject_code": "30000-1501",
+        "group": "ธดท.1/2",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "30000-1501",
+        "group": "กจ.1/1",
+        "teacher": "ปัญจวรรณ"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "30000-1501",
+        "group": "ลจ.1/1",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [4],
+        "time": "11:00-12:00",
+        "subject_code": "30000-1501",
+        "group": "กจ.1/2",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [6],
+        "time": "13:00-14:00",
+        "subject_code": "30000-1501",
+        "group": "คอ.",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [7],
+        "time": "14:00-15:00",
+        "subject_code": "31500-1001",
+        "group": "คอ.",
+        "teacher": "ชินาบูรณ์"
+      },
+      {
+        "periods": [8],
+        "time": "15:20-17:20",
+        "subject_code": "30000-1501",
+        "group": "คอ. กลุ่ม 1 (ม.6)",
+        "teacher": "ปัญจวรรณ"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "30000-1501",
+        "group": "กท.1/1",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [3],
+        "time": "10:00-11:00",
+        "subject_code": "30000-1501",
+        "group": "ลจ.1",
+        "teacher": "ปัญจวรรณ"
+      },
+      {
+        "periods": [8, 9],
+        "time": "14:20-17:20",
+        "subject_code": "30000-1501",
+        "group": "ฟช.1/1",
+        "teacher": "ปัญจวรรณ"
+      }
+    ]
+  }
+}

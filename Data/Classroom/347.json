@@ -1,0 +1,94 @@
+{
+  "semester": "1/2569",
+  "building": "อาคารเรียน 3 พื้นฐาน",
+  "room": "347",
+  "schedule": {
+    "monday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1221",
+        "group": "IT 2/1",
+        "teacher": "เกศกาญจน์"
+      },
+      {
+        "periods": [4],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1219",
+        "group": "บช.2/4",
+        "teacher": "เกศกาญจน์"
+      }
+    ],
+    "tuesday": [
+      {
+        "periods": [2, 3],
+        "time": "08:00-11:00",
+        "subject_code": "20001-1002",
+        "group": "IT 2/1",
+        "teacher": "วรินทร"
+      },
+      {
+        "periods": [7],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1219",
+        "group": "บช.2/2",
+        "teacher": "เกศกาญจน์"
+      },
+      {
+        "periods": [9],
+        "time": "15:20-17:20",
+        "subject_code": "20000-1219",
+        "group": "กด.2/2",
+        "teacher": "เกศกาญจน์"
+      }
+    ],
+    "wednesday": [
+      {
+        "periods": [4],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1201",
+        "group": "คอ.1/1",
+        "teacher": "Eugne"
+      },
+      {
+        "periods": [7],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1212",
+        "group": "กร.2/3",
+        "teacher": "เกศกาญจน์"
+      }
+    ],
+    "thursday": [
+      {
+        "periods": [4],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1212",
+        "group": "กร.2/1",
+        "teacher": "เกศกาญจน์"
+      }
+    ],
+    "friday": [
+      {
+        "periods": [2],
+        "time": "08:00-10:00",
+        "subject_code": "20000-1219",
+        "group": "บช.2/1",
+        "teacher": "เกศกาญจน์"
+      },
+      {
+        "periods": [4],
+        "time": "10:00-12:00",
+        "subject_code": "20000-1219",
+        "group": "กด.2/1",
+        "teacher": "เกศกาญจน์"
+      },
+      {
+        "periods": [7],
+        "time": "13:00-15:00",
+        "subject_code": "20000-1212",
+        "group": "กร.2/2",
+        "teacher": "เกศกาญจน์"
+      }
+    ]
+  }
+}

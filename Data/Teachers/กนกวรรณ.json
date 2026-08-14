@@ -1,0 +1,95 @@
+{
+  "semester": "1/2569",
+  "teacher": "นางสาวกนกวรรณ ชัยชนะ",
+  "department": "ธุรกิจดิจิทัลและเทคโนโลยีสารสนเทศ",
+  "subjects": [
+    {
+      "subject_code": "21901-2002",
+      "subject_name": "การสร้างเว็บไซต์",
+      "hours": {
+        "theory": 1,
+        "practice": 4,
+        "credit": 3,
+        "total": 5
+      }
+    },
+    {
+      "subject_code": "21910-2009",
+      "subject_name": "คณิตศาสตร์คอมพิวเตอร์",
+      "hours": {
+        "theory": 1,
+        "practice": 2,
+        "credit": 2,
+        "total": 3
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "day": "วันจันทร์",
+      "classes": [
+        {
+          "period": 9,
+          "time": "15:20-17:20",
+          "subject_code": "21901-2002",
+          "room": "641 (คอม10)",
+          "group": "692190101 IT 1/1"
+        }
+      ]
+    },
+    {
+      "day": "วันอังคาร",
+      "classes": [
+        {
+          "period": 2,
+          "time": "08:00-10:00",
+          "subject_code": "21910-2009",
+          "room": "433 (คอม3)",
+          "group": "692191001 ธดท.1/1"
+        }
+      ]
+    },
+    {
+      "day": "วันพุธ",
+      "classes": []
+    },
+    {
+      "day": "วันพฤหัสบดี",
+      "classes": [
+        {
+          "period": 4,
+          "time": "10:00-12:00",
+          "subject_code": "21901-2002",
+          "room": "641 (คอม10)",
+          "group": "692190101 IT 1/1"
+        }
+      ]
+    },
+    {
+      "day": "วันศุกร์",
+      "classes": [
+        {
+          "period": 3,
+          "time": "10:00-11:00",
+          "subject_code": "21910-2009",
+          "room": "442 (คอม9)",
+          "group": "692191001 ธดท.1/1"
+        },
+        {
+          "period": 5,
+          "time": "12:00-13:00",
+          "subject_code": "21901-2002",
+          "room": "444 (คอม5)",
+          "group": "692190101 IT 1/1"
+        }
+      ]
+    }
+  ],
+  "special_duty": "กิจกรรมหน้าเสาธง",
+  "summary": {
+    "total_theory_hours": 2,
+    "total_practice_hours": 6,
+    "total_credits": 5,
+    "total_hours": 8
+  }
+}
