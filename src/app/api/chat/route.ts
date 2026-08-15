@@ -185,7 +185,7 @@ ${contextString}`;
       const result = await streamText({
         model: customGoogle('gemini-3.5-flash'),
         system: systemPrompt,
-        messages,
+        messages: messages.slice(-6),
         onFinish: ({ usage }) => {
           // Token Usage Backend Logger
           console.log(`[TOKEN LOG] Model: gemini-3.5-flash | Key: ***${(apiKey as string).slice(-4)} | Prompt: ${usage.promptTokens} | Completion: ${usage.completionTokens} | Total: ${usage.totalTokens}`);
