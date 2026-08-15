@@ -2,21 +2,39 @@ import { generateText } from 'ai';
 import { createGoogleGenerativeAI } from '@ai-sdk/google';
 
 const customGoogle = createGoogleGenerativeAI({
-  apiKey: process.env.GOOGLE_GENERATIVE_AI_API_KEY || "dummy-key",
+  apiKey: process.env.GEMINI_KEY_2,
 });
 
-async function testModel(modelName) {
+async function run() {
   try {
-    const result = await generateText({
-      model: customGoogle(modelName),
-      prompt: "Hello",
+    const res = await generateText({
+      model: customGoogle('gemini-3.5-flash'),
+      system: `คุณคือ DIT ChatBot สำหรับตอบคำถามตารางสอน
+ข้อมูลอ้างอิง:
+{
+  "teachers": [
+    {
+      "fileName": "ปาณวัฐ",
+      "data": {
+        "teacher": "นายปาณวัฐ รักรอดจิต",
+        "schedule": [ { "day": "วันศุกร์", "classes": [ { "subject_code": "21910-2012" } ] } ]
+      }
+    }
+  ]
+}
+ตอบด้วยตาราง (Markdown Table) เท่านั้น ห้ามพิมพ์ข้อความอื่น
+`,
+      messages: [
+        { role: 'user', content: 'ต้องการสอบถามตารางสอนครู' },
+        { role: 'assistant', content: 'ยินดีครับ ต้องการดูตารางสอนของครูท่านใดครับ? (เช่น ครูปัญญา, ครูกนกวรรณ)' },
+        { role: 'user', content: 'ครูปาณวัฐ' }
+      ]
     });
-    console.log(modelName + " SUCCEEDED: " + result.text);
+    console.log("Response:", res.text);
+    console.log("Finish Reason:", res.finishReason);
   } catch (e) {
-    console.log(modelName + " FAILED: " + e.message);
+    console.error(e);
   }
 }
 
-await testModel('gemini-1.5-flash');
-await testModel('gemini-1.5-pro');
-await testModel('gemini-pro');
+run();

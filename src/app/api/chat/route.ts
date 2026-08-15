@@ -203,7 +203,14 @@ ${contextString}`;
       });
 
       const result = await streamText({
-        model: customGoogle('gemini-3.5-flash'),
+        model: customGoogle('gemini-3.5-flash', {
+          safetySettings: [
+            { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_NONE' },
+            { category: 'HARM_CATEGORY_DANGEROUS_CONTENT', threshold: 'BLOCK_NONE' },
+            { category: 'HARM_CATEGORY_SEXUALLY_EXPLICIT', threshold: 'BLOCK_NONE' },
+            { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_NONE' }
+          ]
+        }),
         system: systemPrompt,
         messages: messages.slice(-6),
         onFinish: ({ usage }) => {
@@ -220,7 +227,10 @@ ${contextString}`;
     }
   }
 
-  // If ALL keys fail, return a friendly error message to the user
+  // If ALL keys fail, return a friendly error message to the user as a normal message
   console.error("All API keys failed. Last error:", lastError);
-  return new Response("ขณะนี้มีผู้ใช้งานระบบจำนวนมาก (API Limit Reached) กรุณาลองใหม่อีกครั้งในอีกสักครู่ครับ", { status: 429 });
+  return new Response("🚨 **ระบบขัดข้องชั่วคราว:** ขณะนี้มีผู้ใช้งานระบบจำนวนมาก (API Limit Reached) หรือโควต้าการใช้งานเต็ม กรุณาลองใหม่อีกครั้งในอีกสักครู่ครับ 🙏", { 
+    status: 200,
+    headers: { 'Content-Type': 'text/plain; charset=utf-8' }
+  });
 }
