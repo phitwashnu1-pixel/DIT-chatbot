@@ -24,6 +24,17 @@ if (allData.teachers) {
 export const maxDuration = 30; // 30 seconds limit for Vercel
 
 function extractRelevantData(query: string) {
+  // Short-circuit for Quick Actions to maximize speed and save tokens
+  const exactQuickActions = [
+    "ต้องการสอบถามตารางเรียน",
+    "ต้องการสอบถามตารางสอนครู",
+    "ต้องการสอบถามตารางการใช้ห้อง",
+    "ต้องการสอบถามวิธีการใช้งาน"
+  ];
+  if (exactQuickActions.includes(query.trim())) {
+    return { status: "quick_action_clarification" };
+  }
+
   // Normalize query: remove spaces and convert slashes/dashes to be uniform
   const normalizedQuery = query.toLowerCase().replace(/\s+/g, '').replace(/\//g, '-');
   
