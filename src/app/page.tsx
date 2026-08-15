@@ -13,28 +13,28 @@ const QUICK_ACTIONS = [
     icon: <Calendar className="w-5 h-5 text-purple-600" />,
     title: "ตารางเรียน",
     subtitle: "ดูตารางเรียนของแต่ละกลุ่มเรียน",
-    query: "ขอตารางเรียนหน่อยครับ",
+    query: "ต้องการสอบถามตารางเรียน",
     color: "bg-purple-100/50 text-purple-600"
   },
   {
     icon: <CalendarDays className="w-5 h-5 text-green-600" />,
     title: "ตารางการใช้ห้อง",
     subtitle: "ดูตารางห้องว่างเพื่อใช้ห้อง ทั้งหมด",
-    query: "ห้อง 442 วันนี้ว่างไหม",
+    query: "ต้องการสอบถามตารางการใช้ห้อง",
     color: "bg-green-100/50 text-green-600"
   },
   {
     icon: <User className="w-5 h-5 text-orange-600" />,
     title: "ตารางสอนครู",
     subtitle: "ดูตารางสอนของครู แต่ละรายวิชา",
-    query: "ครูกนกวรรณสอนวันไหนบ้าง",
+    query: "ต้องการสอบถามตารางสอนครู",
     color: "bg-orange-100/50 text-orange-600"
   },
   {
     icon: <HelpCircle className="w-5 h-5 text-cyan-600" />,
     title: "วิธีการใช้งาน",
     subtitle: "แนะนำวิธีการใช้งาน ระบบต่างๆ",
-    query: "ระบบนี้ทำอะไรได้บ้าง",
+    query: "ต้องการสอบถามวิธีการใช้งาน",
     color: "bg-cyan-100/50 text-cyan-600"
   }
 ];
