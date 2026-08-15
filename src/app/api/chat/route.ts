@@ -87,8 +87,15 @@ function extractRelevantData(query: string) {
   }
   
   // Fallback: Do NOT send allData (250kb). This causes massive latency (slow response).
-  // Instead, return null so the AI knows to ask for clarification.
-  return null;
+  // Instead, return list of available classes and teachers so the AI can guide the user.
+  const availableClasses = allData.timetables.map((t: any) => t.data.class || t.fileName.replace('.json', ''));
+  const availableTeachers = allData.teachers.map((t: any) => t.data.teacher || t.fileName.replace('.json', ''));
+  return {
+    status: "not_found",
+    message: "ไม่พบข้อมูลที่ตรงกับคำถามเป๊ะๆ โปรดใช้ available_classes และ available_teachers เพื่อช่วยแนะนำตัวเลือกให้ผู้ใช้",
+    available_classes: availableClasses,
+    available_teachers: availableTeachers
+  };
 }
 
 export async function POST(req: Request) {
@@ -150,7 +157,9 @@ export async function POST(req: Request) {
      |---|---|---|---|
      | (ข้อมูล) | (ข้อมูล) | (ข้อมูล) | (ข้อมูล) |
    - หากมีหลายรายการ ให้ใช้ตารางเดียวแล้วเพิ่มบรรทัดเอา
-4. กรณีไม่พบข้อมูล: หากคำถามเกี่ยวข้องกับตาราง แต่ใน context ไม่มีข้อมูล หรือถูกระบุว่า "ไม่มีข้อมูลที่เกี่ยวข้องในระบบ" ให้คุณตอบว่า "ขออภัยครับ ไม่พบข้อมูลในระบบ กรุณาติดต่อสอบถามที่ห้องพักครูแผนกธุรกิจดิจิทัลฯ นะครับ"
+4. กรณีไม่พบข้อมูล หรือสะกดผิด: 
+   - หากใน context ระบุว่า "status: not_found" พร้อมกับ \`available_classes\` ให้คุณพิจารณาคำถามของผู้ใช้ หากผู้ใช้ถามกว้างๆ (เช่น "ปวช 2 ธุรกิจ") ให้คุณตอบกลับโดย **ดึงรายชื่อกลุ่มเรียนจาก available_classes ที่ใกล้เคียงมาแนะนำให้ผู้ใช้เลือก** เช่น "ระบบมีข้อมูลของ 682190101 IT 2/1 และ 682191001 ธดท. ครับ ต้องการดูตารางของห้องไหนครับ?"
+   - หากไม่มีข้อมูลใกล้เคียงในระบบจริงๆ ให้ตอบว่า "ขออภัยครับ ไม่พบข้อมูลในระบบ กรุณาติดต่อสอบถามที่ห้องพักครูแผนกธุรกิจดิจิทัลฯ นะครับ"
 5. ทัศนคติ (Tone): สุภาพ เป็นกันเอง เป็นมิตร (เป็นผู้ชาย) และให้ความช่วยเหลืออย่างเต็มที่
 6. ความกระชับ (Conciseness): ให้ตอบคำถามแบบสั้น กระชับ ตรงประเด็นที่สุด เพื่อประหยัด Token ห้ามยกตัวอย่างหรืออธิบายเยิ่นเย้อ หากตอบเป็นตารางได้ ให้ตอบแค่ตารางและคำอธิบายสั้นๆ 1-2 ประโยคเท่านั้น
 7. การสอบถามข้อมูลเพิ่มเติม (Clarification): 
