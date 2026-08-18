@@ -36,7 +36,7 @@ function extractRelevantData(query: string) {
   const normalizedQuery = query.toLowerCase().replace(/\s+/g, '').replace(/\//g, '-');
   
   // RAG Logic: Check if filename, actual name, or aliases (text in parentheses) match the query
-  const matchedClassrooms = allData.classrooms.filter((c: any) => {
+  let matchedClassrooms = allData.classrooms.filter((c: any) => {
     const roomName = (c.data.room || "").toLowerCase().replace(/\s+/g, '').replace(/\//g, '-');
     const fileName = c.fileName.toLowerCase().replace(/\s+/g, '').replace(/\//g, '-');
     const aliasMatch = roomName.match(/\((.*?)\)/);
@@ -46,6 +46,13 @@ function extractRelevantData(query: string) {
            normalizedQuery.includes(roomName) || 
            (alias && normalizedQuery.includes(alias));
   });
+
+  // If the user asks for available/empty rooms generally (e.g., "ห้องว่าง", "ห้องไหนว่าง"), include all classrooms
+  const isRoomAvailabilityQuery = /ห้องว่าง|ห้องไหนว่าง|หาห้อง|ห้องไหนบ้าง|มีห้องไหน/.test(normalizedQuery);
+  if (isRoomAvailabilityQuery) {
+    // To save tokens, we could map it to a simpler structure, but passing allData.classrooms is usually fine for Gemini Flash
+    matchedClassrooms = allData.classrooms;
+  }
 
   const matchedTeachers = allData.teachers.filter((t: any) => {
     const teacherName = (t.data.teacher || "").toLowerCase().replace(/\s+/g, '').replace(/\//g, '-');
@@ -165,6 +172,7 @@ export async function POST(req: Request) {
      |---|---|---|---|
      | (ข้อมูล) | (ข้อมูล) | (ข้อมูล) | (ข้อมูล) |
    - หากมีหลายรายการ ให้ใช้ตารางเดียวแล้วเพิ่มบรรทัดเอา
+   - **การหาห้องว่าง:** หากผู้ใช้ถามว่ามีห้องไหนว่างในวัน/เวลาที่กำหนด ให้ตรวจสอบข้อมูลของทุกห้องใน Context ว่ามีห้องใดบ้างที่ "ไม่มี" ตารางเรียนในวันและเวลานั้น แล้วสรุปรายชื่อห้องที่ว่าง พร้อมระบุว่าว่างช่วงเวลาไหนบ้างให้ผู้ใช้ทราบ
 4. กรณีไม่พบข้อมูล หรือสะกดผิด: 
    - หากใน context ระบุว่า "status: not_found" พร้อมกับ \`available_classes\` ให้คุณพิจารณาคำถามของผู้ใช้ หากผู้ใช้ถามกว้างๆ (เช่น "ปวช 2 ธุรกิจ") ให้คุณตอบกลับโดย **ดึงรายชื่อกลุ่มเรียนจาก available_classes ที่ใกล้เคียงมาแนะนำให้ผู้ใช้เลือก** เช่น "ระบบมีข้อมูลของ 682190101 IT 2/1 และ 682191001 ธดท. ครับ ต้องการดูตารางของห้องไหนครับ?"
    - หากไม่มีข้อมูลใกล้เคียงในระบบจริงๆ ให้ตอบว่า "ขออภัยครับ ไม่พบข้อมูลในระบบ กรุณาติดต่อสอบถามที่ห้องพักครูแผนกธุรกิจดิจิทัลฯ นะครับ"
