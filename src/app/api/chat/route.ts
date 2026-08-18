@@ -47,8 +47,8 @@ function extractRelevantData(query: string) {
            (alias && normalizedQuery.includes(alias));
   });
 
-  // If the user asks for available/empty rooms generally (e.g., "ห้องว่าง", "ห้องไหนว่าง"), include all classrooms
-  const isRoomAvailabilityQuery = /ห้องว่าง|ห้องไหนว่าง|หาห้อง|ห้องไหนบ้าง|มีห้องไหน/.test(normalizedQuery);
+  // If the user asks for available/empty rooms generally (e.g., "ห้องว่าง", "ห้องเรียนไหนว่าง"), include all classrooms
+  const isRoomAvailabilityQuery = /ห้อง.*ว่าง|ห้อง.*ไหน|หาห้อง/.test(normalizedQuery);
   if (isRoomAvailabilityQuery) {
     // To save tokens, we could map it to a simpler structure, but passing allData.classrooms is usually fine for Gemini Flash
     matchedClassrooms = allData.classrooms;
