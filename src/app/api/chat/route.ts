@@ -21,7 +21,7 @@ if (allData.teachers) {
   });
 }
 
-export const maxDuration = 30; // 30 seconds limit for Vercel
+export const maxDuration = 60; // 60 seconds limit for Vercel
 
 function extractRelevantData(query: string) {
   // Short-circuit for Quick Actions to maximize speed and save tokens
