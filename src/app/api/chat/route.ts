@@ -1,11 +1,8 @@
 import { streamText } from 'ai';
 import { createGoogleGenerativeAI } from '@ai-sdk/google';
-import fs from 'fs';
-import path from 'path';
+import allData from '../../../data.json';
 
-// Note: In Next.js, importing JSON statically is safe, but since it's generated, we'll read it dynamically to avoid build-time issues if not ready, or we can just import it statically since we have a predev/prebuild step.
-const dataPath = path.join(process.cwd(), 'src', 'data.json');
-const allData = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+export const runtime = 'edge';
 
 // Build a global dictionary of subject_code -> subject_name
 const subjectDictionary: Record<string, string> = {};
